@@ -6,6 +6,7 @@ services:
       POSTGRES_USER: manager
       POSTGRES_PASSWORD: "pgpassword"
       POSTGRES_DB: "pgdb"
+      CSV_FILENAME: "data.csv"
   manager:
     build: 
       context: .
